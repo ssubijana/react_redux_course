@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
+import Result from "./components/Result";
 import "./App.css";
 
 export default function App() {
   return (
     <main className="react-calculator">
-      <div className="result"></div>
+      <Result value={20} field="hola" />
       <div className="numbers">
         <button>1</button>
         <button>2</button>
