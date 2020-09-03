@@ -1,6 +1,7 @@
 import React from "react";
 
 import Button from "./components/Button";
+import MathOperations from "./components/MathOperations";
 import Result from "./components/Result";
 
 import "./App.css";
@@ -30,11 +31,7 @@ export default function App() {
         <button>r</button>
       </div>
       <div className="math-operations">
-        <button>+</button>
-        <button>-</button>
-        <button>*</button>
-        <button>/</button>
-        <button>=</button>
+        <MathOperations onClickEqual={clickHandlerFunction} onClickOperation={clickHandlerFunction} />
       </div>
     </main>
   );
