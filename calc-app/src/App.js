@@ -30,9 +30,7 @@ export default function App() {
         <button>Clear</button>
         <button>r</button>
       </div>
-      <div className="math-operations">
-        <MathOperations onClickEqual={clickHandlerFunction} onClickOperation={clickHandlerFunction} />
-      </div>
+      <MathOperations onClickEqual={clickHandlerFunction} onClickOperation={clickHandlerFunction} />
     </main>
   );
 }
